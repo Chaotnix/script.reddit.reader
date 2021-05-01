@@ -9,6 +9,7 @@
         <import addon="script.module.requests"        version="1.1.0"/>
         <import addon="script.module.requests-cache"  />
         <import addon="script.module.youtube.dl"      />
+		<import addon="script.module.resolveurl" 	  />
     </requires>
 
     <extension point="xbmc.python.script" library="default.py">

@@ -377,7 +377,7 @@ def playURLRVideo(url, name, type_):
     parsed_uri = urlparse( url )
     domain = '{uri.netloc}'.format(uri=parsed_uri)
     try:
-        import urlresolver
+        import resolveurl as urlresolver
         #hmf = urlresolver.HostedMediaFile(url)
         dialog_progress_YTDL.update(20,dialog_progress_title,translation(32012)  )
 
